@@ -1,0 +1,25 @@
+body {
+    background-color: #222; margin-top: 50px;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    width: 570px;
+    margin: 0 auto;
+}
+
+#continer {
+    transition: 0.5s;
+    box-shadow: 10px 10px 10px;
+    width: 490px;
+    margin: 0 auto;
+}
+
+#continer:hover {
+    transition: 0.5s;
+    filter: drop-shadow(0 0 1.5em #ccc);
+}
